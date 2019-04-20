@@ -1,5 +1,5 @@
 language : java
 sudo : false
-script : "mvn dersyazilimarac-/pom.xml clean install"
+script : "mvn -f dersyazilimarac-/pom.xml clean install"
 jdk :
    - orcalejdk8
