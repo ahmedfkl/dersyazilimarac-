@@ -1,0 +1,5 @@
+language : java
+sudo : false
+script : "maven pom.xml clean install"
+jdk :
+   - orcalejdk8
